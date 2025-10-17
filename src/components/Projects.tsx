@@ -17,7 +17,7 @@ const Projects = () => {
       id: 2,
       title: "AI 영화 추천",
       description: "AI를 활용한 개인 맞춤형 영화 추천 서비스입니다. 사용자의 취향을 분석하여 최적의 영화를 추천하고, 상세한 정보와 리뷰를 제공합니다.",
-      image: "https://images.unsplash.com/photo-1574267432644-f74945a6dd02?w=600&h=400&fit=crop&crop=center",
+      image: "https://images.unsplash.com/photo-1594909122845-11baa439b7bf?w=600&h=400&fit=crop&crop=center",
       technologies: ["React", "AI API", "Movie Database", "Tailwind CSS"],
       github: "https://github.com",
       demo: "https://movie-site-six-sandy.vercel.app",

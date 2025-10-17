@@ -47,16 +47,6 @@ const Contact = () => {
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             잘부탁드립니다. 감사합니다.
           </p>
-          <div className="mt-6">
-            <p className="text-sm text-gray-500 mb-2">사용 언어:</p>
-            <div className="flex flex-wrap justify-center gap-2">
-              <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">React</span>
-              <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">TypeScript</span>
-              <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">JavaScript</span>
-              <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">HTML/CSS</span>
-              <span className="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">Tailwind CSS</span>
-            </div>
-          </div>
         </div>
 
         <div className="max-w-4xl mx-auto">

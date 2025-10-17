@@ -16,7 +16,6 @@ const Hero = () => {
         <div className="animate-fade-in">
           {/* Profile Image Placeholder */}
           <div className="w-32 h-32 mx-auto mb-8 rounded-full bg-gradient-to-r from-primary-400 to-accent-400 flex items-center justify-center">
-            <span className="text-4xl text-white font-bold">JD</span>
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
