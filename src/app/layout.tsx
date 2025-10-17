@@ -14,7 +14,7 @@ const notoSansKR = Noto_Sans_KR({
 
 export const metadata: Metadata = {
   title: "Portfolio - 개발자 포트폴리오",
-  description: "창의적이고 혁신적인 웹 애플리케이션을 만드는 개발자의 포트폴리오입니다.",
+  description: "이고 혁신적인 웹 애플리케이션을 만드는 개발자의 포트폴리오입니다.",
 };
 
 export default function RootLayout({

@@ -19,12 +19,12 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-            안녕하세요, <span className="text-primary-600">개발자</span>입니다
+            안녕하세요, <span className="text-primary-600">000</span>입니다
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
-            창의적이고 혁신적인 웹 애플리케이션을 만드는 것을 좋아합니다. 
-            사용자 경험을 최우선으로 생각하며, 최신 기술을 활용한 솔루션을 제공합니다.
+            안녕하세요! 새로운 것을 배우는 것을 좋아하는 신입 개발자입니다. 
+            함께 일하며 성장해나가는 것을 소중히 여기며, 사용자에게 도움이 되는 웹사이트를 만들고 싶습니다.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
