@@ -19,7 +19,7 @@ const Hero = () => {
           </div>
           
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-6">
-            안녕하세요, <span className="text-primary-600">000</span>입니다
+            안녕하세요, <span className="text-primary-600">연나현</span>입니다
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">

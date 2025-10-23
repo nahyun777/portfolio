@@ -39,7 +39,7 @@ const Skills = () => {
             Skills
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            제가 사용할 수 있는 기술들입니다
+            제가 사용할 수 있는 기술들
           </p>
         </div>
 
