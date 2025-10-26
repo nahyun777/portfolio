@@ -35,13 +35,13 @@ const Projects = () => {
     },
     {
       id: 4,
-      title: "Blog Platform",
-      description: "마크다운을 지원하는 블로그 플랫폼입니다. SEO 최적화와 다크모드를 지원합니다.",
-      image: "https://images.unsplash.com/photo-1499750310107-5fef28a66643?w=600&h=400&fit=crop&crop=center",
-      technologies: ["Next.js", "MDX", "Tailwind CSS", "Vercel"],
+      title: "온라인 쇼핑몰",
+      description: "완전한 기능을 갖춘 온라인 쇼핑몰 플랫폼입니다. 상품 관리, 장바구니, 결제 시스템을 포함한 전자상거래 솔루션을 제공합니다.",
+      image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&h=400&fit=crop&crop=center",
+      technologies: ["React", "Next.js", "Node.js", "MongoDB", "Stripe"],
       github: "https://github.com",
-      demo: "https://demo.com",
-      featured: false
+      demo: "https://shoppingmall-eta.vercel.app",
+      featured: true
     },
     {
       id: 5,
