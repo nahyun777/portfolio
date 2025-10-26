@@ -9,8 +9,8 @@ const Contact = () => {
         </svg>
       ),
       title: "Email",
-      value: "dusmiss@nave.com",
-      link: "mailto:dusmiss@nave.com"
+      value: "dusmiss@naver.com",
+      link: "mailto:dusmiss@naver.com"
     },
     {
       icon: (
@@ -55,12 +55,12 @@ const Contact = () => {
             <h3 className="text-2xl font-semibold text-gray-900 mb-8">
               연락처 정보
             </h3>
-            <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-12 max-w-md mx-auto">
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-6 mb-12 max-w-2xl mx-auto">
               {contactInfo.map((info, index) => (
                 <a
                   key={index}
                   href={info.link}
-                  className="flex flex-col items-center p-4 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200"
+                  className="flex flex-col items-center p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow duration-200 w-full sm:w-64"
                 >
                   <div className="flex-shrink-0 w-16 h-16 bg-primary-100 rounded-lg flex items-center justify-center text-primary-600 mb-4">
                     {info.icon}
