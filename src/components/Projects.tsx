@@ -85,7 +85,7 @@ const Projects = () => {
             주요 프로젝트
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            {featuredProjects.map((project, index) => (
+            {featuredProjects.map((project) => (
               <div key={project.id} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
                 <div className="relative">
                   <Image 
