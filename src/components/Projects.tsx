@@ -7,7 +7,7 @@ const Projects = () => {
       id: 1,
       title: "AI 영화 추천",
       description: "AI를 활용한 개인 맞춤형 영화 추천 서비스입니다. 사용자의 취향을 분석하여 최적의 영화를 추천하고, 상세한 정보와 리뷰를 제공합니다.",
-      image: "https://cdn.pixabay.com/photo/2025/09/10/12/32/tokyo-9826329_1280.jpg",
+      image: "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?w=600&h=400&fit=crop",
       technologies: ["React", "AI API", "Movie Database", "Tailwind CSS"],
       github: "https://github.com",
       demo: "https://movie-site-six-sandy.vercel.app",
@@ -17,7 +17,7 @@ const Projects = () => {
       id: 2,
       title: "날씨웹",
       description: "실시간 날씨 정보를 제공하는 웹 애플리케이션입니다. 현재 위치와 다른 도시의 날씨를 확인할 수 있으며, 직관적인 UI로 날씨 정보를 제공합니다.",
-      image: "https://pixabay.com/ko/images/download/clouds-8353592_1920.jpg",
+      image: "https://images.unsplash.com/photo-1504608524841-42fe6f032b4b?w=600&h=400&fit=crop",
       technologies: ["Next.js", "Weather API", "Tailwind CSS", "Vercel"],
       github: "https://github.com",
       demo: "https://nextjs-weather-app-blush.vercel.app/",
@@ -27,7 +27,7 @@ const Projects = () => {
       id: 3,
       title: "온라인 쇼핑몰",
       description: "완전한 기능을 갖춘 온라인 쇼핑몰 플랫폼입니다. 상품 관리, 장바구니, 결제 시스템을 포함한 전자상거래 솔루션을 제공합니다.",
-      image: "https://pixabay.com/ko/images/download/cosmetics-9086984_1920.jpg",
+      image: "https://images.unsplash.com/photo-1596462502278-27bfdc403348?w=600&h=400&fit=crop",
       technologies: ["React", "Next.js", "Node.js", "MongoDB", "Stripe"],
       github: "https://github.com",
       demo: "https://shoppingmall-eta.vercel.app",
@@ -37,7 +37,7 @@ const Projects = () => {
       id: 4,
       title: "제주도 해변가 소개",
       description: "제주도의 아름다운 해변가를 소개하는 웹사이트입니다. 각 해변의 특징과 정보를 제공하며, 아름다운 사진과 함께 제주도의 매력을 전달합니다.",
-      image: "https://pixabay.com/ko/images/download/samcheok-2620056_1280.jpg",
+      image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=600&h=400&fit=crop",
       technologies: ["React", "Next.js", "Tailwind CSS", "Vercel"],
       github: "https://github.com",
       demo: "https://visitkorea-9i3o.vercel.app",
@@ -95,11 +95,6 @@ const Projects = () => {
                     height={400}
                     className="w-full h-48 object-cover"
                   />
-                  <div className="absolute top-4 right-4">
-                    <span className="bg-accent-500 text-white px-3 py-1 rounded-full text-sm font-medium">
-                      Featured
-                    </span>
-                  </div>
                 </div>
                 <div className="p-6">
                   <h4 className="text-xl font-semibold text-gray-900 mb-3">
