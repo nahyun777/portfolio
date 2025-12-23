@@ -86,7 +86,7 @@ const Projects = () => {
           </h3>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {featuredProjects.map((project) => (
-              <div key={project.id} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden">
+              <div key={project.id} className="bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden flex flex-col h-full">
                 <div className="relative">
                   <Image 
                     src={project.image} 
@@ -96,7 +96,7 @@ const Projects = () => {
                     className="w-full h-48 object-cover"
                   />
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-grow">
                   <h4 className="text-xl font-semibold text-gray-900 mb-3">
                     {project.title}
                   </h4>
@@ -113,7 +113,7 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  <div className="flex gap-4">
+                  <div className="flex gap-4 mt-auto">
                     <a 
                       href={project.github}
                       target="_blank"
